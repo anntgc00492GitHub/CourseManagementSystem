@@ -11,6 +11,7 @@ using CourseManagementSystem.Web.Models;
 namespace CourseManagementSystem.Web.Controllers
 {
     [Authorize]
+    [OutputCacheAttribute(VaryByParam = "*", Duration = 0, NoStore = true)]
     public class ManageController : Controller
     {
         private ApplicationSignInManager _signInManager;
