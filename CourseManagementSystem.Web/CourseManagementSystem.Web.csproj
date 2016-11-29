@@ -280,6 +280,20 @@
       <DependentUpon>201611280758101_kt.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CourseManagementSystem.Data\CourseManagementSystem.Data.csproj">
+      <Project>{997089db-10de-4c38-871a-ae27ab88259f}</Project>
+      <Name>CourseManagementSystem.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CourseManagementSystem.Models\CourseManagementSystem.Models.csproj">
+      <Project>{b70e393f-e95e-42a8-af41-2439b54eee86}</Project>
+      <Name>CourseManagementSystem.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CourseManagementSystem.Services\CourseManagementSystem.Services.csproj">
+      <Project>{ae86d137-0a17-43a6-ad47-6ec71111ac53}</Project>
+      <Name>CourseManagementSystem.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
