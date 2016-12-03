@@ -23,6 +23,12 @@
                 {
                     <ul class="nav navbar-nav">
                         <li>@Html.ActionLink("Admin Index", "Index", "Admin")</li>
+                        <li>@Html.ActionLink("Departments", "Index", "Departments")</li>
+                        <li>@Html.ActionLink("Instructors", "Index", "Instructors")</li>
+                        <li>@Html.ActionLink("Courses", "Index", "Courses")</li>
+                        <li>@Html.ActionLink("Teachings", "Index", "Teachings")</li>
+                        <li>@Html.ActionLink("Students", "Index", "Students")</li>
+                        <li>@Html.ActionLink("Enrollments", "Index", "Enrollments")</li>
                     </ul>
                 }
                 else if (Request.IsAuthenticated && User.IsInRole("Manager"))
